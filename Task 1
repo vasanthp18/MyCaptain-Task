@@ -1,0 +1,27 @@
+#program to get radius and find area of the circle
+
+r=float(input("radius of the circle:"))
+pi=3.14
+a=pi*r**2
+print("area of the circle is",a)
+
+output:-
+radius of the circle:2
+area of the circle is 12.56
+-----------------------------------------------------
+
+#program to get a file name and generate extension
+
+file_name=input("Enter the file name:-")
+if(file_name=="py"): 
+   print("Extension of the file name is PYTHON")
+else:
+   print("Extension doesn't exists")
+   
+output:-   
+Enter the file name:-py
+Extension of the file name is PYTHON
+
+another output:-
+Enter the file name:-dd
+Extension doesn't exists
