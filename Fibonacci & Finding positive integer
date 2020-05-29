@@ -1,0 +1,38 @@
+#fibonacci series
+a=0
+b=1
+c=a+b
+print(a)
+print(b)
+while(c):
+    print(c)
+    a=b
+    b=c
+    c=a+b
+
+    output:-
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+89
+144
+233
+...
+---------------------------------------------------------------------
+
+list1 = [12,-5,34,-87]
+print("input: list=",list1)
+num = list(filter(lambda x : x>0,list1))
+print("positive numbers are:",num)
+
+output:-
+input: list= [12, -5, 34, -87]
+positive numbers are: [12, 34]
