@@ -1,0 +1,14 @@
+a="mississippi"
+print("Total Alphabets =",len(a))
+print("m=",a.count('m'))
+print("i=",a.count('i'))
+print("s=",a.count('s'))
+print("p=",a.count('p'))
+
+output:-
+Total Alphabets = 11
+m= 1
+i= 4
+s= 4
+p= 2
+-----------------------------------------------------------------
